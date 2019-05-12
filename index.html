@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" >
+		<title>UI/UX Designer</title>
+		<link rel="stylesheet" href="css/index.css">
+	</head>
+	<body>
+		<div class="landing-page" id="parallax">
+			<header>
+				<nav>
+					<span class="open-slide">
+						<a href="#" onclick="openSlideMenu()" class="span">
+							<svg width="30" height="30">
+								<path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+								<path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+								<path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+							</svg>
+						</a>
+						
+					</span>
+					<ul class="main-nav">
+						<li><a href="#" title="work">Home</a></li>
+						<li><a href="#"title="Design & Development Blog">About</a></li>
+						<li><a href="#" title="MY Story">Gallery</a></li>
+						<li><a href="#" title="Contact">Contact</a></li>
+					</ul>
+				</nav>
+				<div id="side-nav">
+						<a href="#" onclick="closeSlideMenu()" class="btn-close">&times;</a>
+						<a href="#">Home</a>
+						<a href="#">About</a>
+						<a href="#">Gallery</a>
+						<a href="#">Contact</a>
+				</div>
+			</header>
+			<div class="landing-text">
+				<div class="container">
+					<h1>MICHAEL THE</h1>
+					<h1>TECH <span>NERD</span></h1>
+					<p class="para"></p>
+					<div class="button">
+					<a href="#">Let's Work Together</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<section>
+			<div class="container">
+				<div class="boxes">
+					<a href="#">
+						<div class="box">
+							<image src="images/photo1.png">
+							<h1 class="heading">Lorem, ipsum.</h1>
+							<h3><i>UX,UI,Development</i></h3>
+						</div>
+					</a>
+					<div class="box">
+						<a href="#">
+							<image src="images/photo1.png">
+							<h1 class="heading">Memorate</h1>
+							<h3><i>Strategic Direction,UX,UI</i></h3>
+						</a>
+					</div>
+					<div class="box">
+						<a href="#">
+							<image src="images/photo1.png">
+							<h1 class="heading">Lorem, ipsum.</h1>
+							<h3><i>Develpment,CMS Integration</i></h3>
+						</a>
+					</div>
+					<div class="box">
+						<a href="#">
+							<image src="images/photo1.png">
+							<h1 class="heading">Little Big Plumbing</h1>
+							<h3><i>Responsive Web Design,Development</i></h3>
+						</a>
+					</div>
+					<div class="box">
+						<a href="#">
+							<image src="images/photo1.png">
+							<h1 class="heading">Rep Mastsumoto</h1>
+							<h3><i>Development,Responsive Web Design,UX</i></h3>
+						</a>
+					</div>
+					<div class="box">
+						<a href="#">
+							<image src="images/photo1.png">
+							<h1 class="heading">Sasquatch Shades</h1>
+							<h3><i>Web Design,Development</i></h3>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section class="about">
+		<div class="about-content">
+		<div class="container">
+			<h1>Lorem ipsum dolor sit amet consectetur adipisicing.</h1>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, ex! <a href="#" class="link-a">Mike mathu </a> Ecos Lorem ipsum, dolor sit amet consectetur adipisicing. nulla mollitia suscipit! Ess e qui illum ipsum tempora, optio neque eos. Tempora dolorum iste incidunt?</p>
+			<a href="#" class="link">Get The Full Story</a>
+		</div>
+		</div>
+		</section>
+		
+		<section class="experience">
+		<div class="container">
+		<div class="experience-2">
+				<div class="boxes-2">
+					<div class="box-2">
+						<image src="images/photo2.jpg">
+						<h1>Web Design</h1>
+						<p>Designing for the web is not a job, it's a lifestyle. As technology changes so does the challenge.</p>
+					</div>
+					<div class="box-2">
+						<image src="images/photo2.jpg">
+						<h1>UX Design</h1>
+						<p>An extension of my love for design and problem solving, UX allows me to dictate the skeleton.</p>
+					</div>
+					<div class="box-2">
+						<image src="images/photo2.jpg">
+						<h1>Development</h1>
+						<p>I love bringing my designs to life in HTML, CSS & Javascript, also acting like a mad scientist.</p>
+					</div>
+					<div class="box-2">
+						<image src="images/photo2.jpg">
+						<h1>UI Design</h1>
+						<p>I design user friendly, intuitive interfaces allowing users to focus on the task and not the tool.</p>
+					</div>
+					
+				</div>
+				<hr/>
+				<div class="box-x">
+				<p><i>Lorem ipsum Lorem ipsum dolor sit amet. dolor sit amet consectetur adipisicing elit. Unde quaerat id autem nostrum dolorem.</i></p>
+				<image src="images/photo3.jpg">
+				<h1>Darth Vder</h1>
+				</div>
+				</div>
+			</div>
+		</section>
+		
+		<section>
+			<div class="container">
+			<div class="boxes-3">
+				<div class="box-3">
+					<h1>Lorem, ipsum dolor.</h1>
+					<a href="#">Latest Case Strudy</a>
+				</div>
+				<div class="box-3">
+					<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, alias!</h1>
+					<a href="#">Latest Blog Post</a>
+				</div>
+			</div>
+			</div>
+		</section>
+		
+		<footer>
+		<p>&copy; John Doe Showalter 2016  -  Honolulu, Hi  - <a href="#"> iamjohndoe@gmail.com</a></p>
+		<img src="images/photo4.png">
+		</footer>
+		<script>
+			function openSlideMenu(){
+		document.getElementById('side-nav').style.width="250px";
+		}
+
+		function closeSlideMenu(){
+		document.getElementById('side-nav').style.width="0";
+		}
+		</script>
+	</body>
+</html>
